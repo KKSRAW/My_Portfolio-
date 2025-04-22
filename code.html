@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kalpesh Sarsambe | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+<div id="scrollProgress"></div>
+
+<header>
+  <div class="container">
+    <h1>👨‍💻 Kalpesh Sarsambe</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button id="darkModeToggle">Dark Mode</button></li>
+        <li><a href="#" id="signInBtn">Sign In</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+      Hello! I'm Kalpesh Sarsambe, a passionate learner and aspiring developer from Solapur, Maharashtra.
+      I have interned at Infosys Springboard 5.0 and ADORE, and I was coordinated as Assistant Treasurer at ISTE Solapur.
+      With a CGPA of 9.2, I am enthusiastic about economics and technology, always eager to explore new opportunities and challenges.
+    </p>
+  </section>
+
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li>Python</li><li>Machine Learning</li><li>Data Analysis</li>
+      <li>Data Visualization</li><li>Regression Models</li><li>HTML5</li>
+      <li>CSS3</li><li>JavaScript</li><li>Git & GitHub</li>
+      <li>Economics</li><li>Strategic Thinking</li>
+      <li>Communication Skills</li><li>Problem Solving</li><li>Leadership</li>
+    </ul>
+  </section>
+
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Wine Quality Analysis</h3>
+      <p>
+        Analyzed wine quality dataset using Python and machine learning techniques to predict wine quality ratings.
+        <br />
+        <a href="https://github.com/KKSRAW/wine_test" target="_blank">View on GitHub</a>
+      </p>
+    </div>
+    <div class="project">
+      <h3>My Project</h3>
+      <p>
+        A collection of various coding exercises and mini-projects developed during my learning journey.
+        <br />
+        <a href="https://github.com/KKSRAW/My-project" target="_blank">View on GitHub</a>
+      </p>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <form id="contact-form">
+      <input type="text" placeholder="Your Name" id="name" required>
+      <input type="email" placeholder="Your Email" id="email" required>
+      <textarea placeholder="Your Message" id="message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <div class="social-links">
+      <a href="https://github.com/KKSRAW" target="_blank">GitHub</a> |
+      <a href="https://www.linkedin.com/in/kalpesh-sarsambe-801168249" target="_blank">LinkedIn</a>
+    </div>
+  </section>
+</main>
+
+<!-- Sign In Modal -->
+<div id="signInModal" class="modal">
+  <div class="modal-content">
+    <span class="closeBtn">&times;</span>
+    <h2>Sign In</h2>
+    <form id="signInForm">
+      <input type="text" id="username" placeholder="Username" required />
+      <input type="password" id="password" placeholder="Password" required />
+      <button type="submit">Sign In</button>
+    </form>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; 2025 Kalpesh Sarsambe. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
